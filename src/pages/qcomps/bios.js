@@ -1,5 +1,6 @@
 export default function Bio() {
   return (
+    <div>
     <div class="intro">
       <h1>Welcome to my website!</h1>
     </div>
@@ -7,6 +8,6 @@ export default function Bio() {
       You can find my thoughts here.
       <br/><br/>
       <b>And <i>pictures</i></b> of people!
-    </p>
+    </p></div>
   );
 }
