@@ -10,6 +10,10 @@ export default function List() {
   const [artists, setArtists] = useState(
     initialArtists
   );
+  const handleDelete = (id) => {
+    const updatedArtists = artists.filter(artist => artist.id !== id);
+    setArtists(updatedArtists);
+  };
 
   return (
     <>
